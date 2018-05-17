@@ -1,5 +1,11 @@
 package br.edu.up.jpa.repository;
 
+package br.edu.up.jpa.repository;
 
-//public interface Fornecedor_ProdutoRepository extends CrudRepository<Fornecedor_Produto Integer> {
-//}
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.edu.up.jpa.dominio.Fornecedor_Produto;
+
+
+public interface Fornecedor_ProdutoRepository extends JpaRepository<Fornecedor_Produto, Integer> {
+}
